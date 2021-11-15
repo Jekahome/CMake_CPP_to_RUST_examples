@@ -1,9 +1,35 @@
-── item1
+.
+├── external_lang
+│   ├── cpp_third_party_libraries
+│   │   ├── build
+│   │   ├── include
+│   │   │   └── Third.hpp
+│   │   └── src
+│   │       └── main.cpp
+│   └── rust_third_party_libraries
+│       ├── Cargo.lock
+│       ├── Cargo.toml
+│       ├── src
+│       │   └── lib.rs
+│       └── target
+│           └── release
+│               ├── libexternal_rust_library.d
+│               └── libexternal_rust_library.so
+├── project_cpp
 │   ├── build
+│   ├── cmake
+│   │   ├── CMakeCargo.cmake
+│   │   ├── CMakeDetermineRustCompiler.cmake
+│   │   ├── CMakeRustCompiler.cmake.in
+│   │   ├── CMakeRustInformation.cmake
+│   │   ├── CMakeTestRustCompiler.cmake
+│   │   └── FindRust.cmake
 │   ├── CMakeLists.txt
 │   ├── include
-│   │   ├── _CMakeLists.txt
-│   │   └── header.h
+│   │   ├── external_cpp_library_fake_lib.hpp
+│   │   ├── external_rust_library.hpp
+│   │   ├── header.h
+│   │   └── test_lib.h
 │   ├── lib
 │   │   ├── my_shared_dynamic_lib
 │   │   │   ├── sLibrary.cpp
@@ -18,14 +44,15 @@
 │   ├── src
 │   │   ├── header.cpp
 │   │   └── main.cpp
-│   └── third_lib
-│       ├── libcmake_example_4_static_fake_lib.a
-│       └── sLibraryThird.hpp
-└── third_party_libraries
-    ├── build
-    │   └── libcmake_example_4_static_fake_lib.a
-    ├── CMakeLists.txt
-    ├── include
-    │   └── sLibraryThird.hpp
-    └── src
-        └── sLibraryThird.cpp
+│   ├── test-lib
+│   │   ├── Cargo.lock
+│   │   ├── Cargo.toml
+│   │   ├── CMakeLists.txt
+│   │   └── src
+│   │       └── lib.rs
+│   ├── third_lib
+│   │   ├── libexternal_cpp_library_fake_lib.a
+│   │   └── libexternal_rust_library.so
+│   └── tree.txt
+└── README.md
+
