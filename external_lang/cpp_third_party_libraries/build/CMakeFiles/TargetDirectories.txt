@@ -1,0 +1,3 @@
+/media/jeka/PROJECTS/Develop/esp32/learn_cmake/external_lang/cpp_third_party_libraries/build/CMakeFiles/rebuild_cache.dir
+/media/jeka/PROJECTS/Develop/esp32/learn_cmake/external_lang/cpp_third_party_libraries/build/CMakeFiles/edit_cache.dir
+/media/jeka/PROJECTS/Develop/esp32/learn_cmake/external_lang/cpp_third_party_libraries/build/CMakeFiles/external_cpp_library_fake_lib.dir

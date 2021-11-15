@@ -1,0 +1,31 @@
+── item1
+│   ├── build
+│   ├── CMakeLists.txt
+│   ├── include
+│   │   ├── _CMakeLists.txt
+│   │   └── header.h
+│   ├── lib
+│   │   ├── my_shared_dynamic_lib
+│   │   │   ├── sLibrary.cpp
+│   │   │   └── sLibrary.hpp
+│   │   └── my_static_lib
+│   │       ├── _CMakeLists.txt
+│   │       ├── mul.cpp
+│   │       └── mul.h
+│   ├── others
+│   │   ├── foo.cpp
+│   │   └── foo.hpp
+│   ├── src
+│   │   ├── header.cpp
+│   │   └── main.cpp
+│   └── third_lib
+│       ├── libcmake_example_4_static_fake_lib.a
+│       └── sLibraryThird.hpp
+└── third_party_libraries
+    ├── build
+    │   └── libcmake_example_4_static_fake_lib.a
+    ├── CMakeLists.txt
+    ├── include
+    │   └── sLibraryThird.hpp
+    └── src
+        └── sLibraryThird.cpp

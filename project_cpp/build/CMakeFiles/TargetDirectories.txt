@@ -1,0 +1,8 @@
+/media/jeka/PROJECTS/Develop/esp32/learn_cmake/project_cpp/build/CMakeFiles/rebuild_cache.dir
+/media/jeka/PROJECTS/Develop/esp32/learn_cmake/project_cpp/build/CMakeFiles/edit_cache.dir
+/media/jeka/PROJECTS/Develop/esp32/learn_cmake/project_cpp/build/CMakeFiles/my_project.dir
+/media/jeka/PROJECTS/Develop/esp32/learn_cmake/project_cpp/build/CMakeFiles/my_project_fake_dyn_lib.dir
+/media/jeka/PROJECTS/Develop/esp32/learn_cmake/project_cpp/build/CMakeFiles/my_project_fake_lib.dir
+/media/jeka/PROJECTS/Develop/esp32/learn_cmake/project_cpp/build/test-lib/CMakeFiles/rebuild_cache.dir
+/media/jeka/PROJECTS/Develop/esp32/learn_cmake/project_cpp/build/test-lib/CMakeFiles/edit_cache.dir
+/media/jeka/PROJECTS/Develop/esp32/learn_cmake/project_cpp/build/test-lib/CMakeFiles/test-lib_target.dir

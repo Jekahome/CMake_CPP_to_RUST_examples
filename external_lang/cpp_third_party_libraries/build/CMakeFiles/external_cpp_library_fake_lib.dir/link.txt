@@ -1,0 +1,2 @@
+/usr/bin/ar qc libexternal_cpp_library_fake_lib.a  CMakeFiles/external_cpp_library_fake_lib.dir/src/main.cpp.o
+/usr/bin/ranlib libexternal_cpp_library_fake_lib.a

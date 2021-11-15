@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.5)
+
+# имя проекта. Доступно ${PROJECT_NAME}
+project(my_include_lib)
+set(CMAKE_CXX_STANDART 11)
+
+include_directories("${CMAKE_CURRENT_SOURCE_DIR}/include/")
+
+FILE(GLOB lib_files ${CMAKE_SOURCE_DIR}/*.*)
+add_library("my_include_lib" ${lib_files})
+target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

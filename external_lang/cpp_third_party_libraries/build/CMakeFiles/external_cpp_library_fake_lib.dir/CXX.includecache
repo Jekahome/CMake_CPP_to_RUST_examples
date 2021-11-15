@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Third.hpp
+
+/media/jeka/PROJECTS/Develop/esp32/learn_cmake/external_lang/cpp_third_party_libraries/src/main.cpp
+iostream
+-
+Third.hpp
+/media/jeka/PROJECTS/Develop/esp32/learn_cmake/external_lang/cpp_third_party_libraries/src/Third.hpp
+
